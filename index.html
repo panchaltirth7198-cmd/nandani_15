@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Simple App</title>
+</head>
+<body>
+
+    <!-- This is a heading -->
+    <h1>Job Application Portal</h1>
+    <p>Please fill out the details below to submit your application.</p>
+
+    <hr> <!-- This creates a simple dividing line -->
+
+    <!-- This is the application form -->
+    <form>
+        <!-- Text Input Box -->
+        <label for="fullname">Your Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="John Doe"><br><br>
+
+        <!-- Email Input Box -->
+        <label for="useremail">Email Address:</label><br>
+        <input type="email" id="useremail" name="useremail" placeholder="name@example.com"><br><br>
+
+        <!-- Dropdown Selection Menu -->
+        <label for="jobtitle">Select Job Role:</label><br>
+        <select id="jobtitle" name="jobtitle">
+            <option value="dev">Web Developer</option>
+            <option value="design">UI/UX Designer</option>
+            <option value="support">Customer Support</option>
+        </select><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Send Application</button>
+    </form>
+
+</body>
+</html>
